@@ -1,9 +1,7 @@
 # kiss-i3wm
-A repo for Kiss Linux to install i3wm [wip, nothing works yet]
+A repo for Kiss Linux to install i3wm.
 
 Kiss Linux: https://k1ss.org/
-
-
 i3 Dependencies:
 ```
 ┌──────────────┬────────┬────────┬─────────────────────────────────────────────────────────────┐
@@ -35,6 +33,9 @@ i3 Dependencies:
  ³ xcb-util-cursor, to be precise.
  ⁴ Depending on your distribution, this might be considered part of xcb-util.
 ```
+
+After adding xorg and community repos and installing X (`kiss b xorg-server xinit xf86-input-libinput`),
+add this repo and then add its local path to KISS_PATH, then:
 
 ```
 # kiss b i3
