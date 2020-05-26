@@ -1,6 +1,9 @@
 autoconf make
 automake make
 libev
+xcb-util
+xcb-util-cursor
+xcb-util-keysyms
 startup-notification
 xcb-util-cursor
 xkbcommon
