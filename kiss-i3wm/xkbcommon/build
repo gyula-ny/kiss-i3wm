@@ -1,0 +1,7 @@
+#!/bin/sh -e
+
+meson setup build -Denable-wayland=false -Denable-docs=false --prefix=/usr
+ninja -C build
+ninja -C build install
+
+

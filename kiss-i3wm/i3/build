@@ -1,0 +1,8 @@
+#!/bin/sh -e
+
+autoreconf -fi
+mkdir -p build && cd build
+../configure --prefix=/usr
+make
+make install
+

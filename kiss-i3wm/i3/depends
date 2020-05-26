@@ -1,7 +1,7 @@
 autoconf make
 automake make
 libev
-libstartup-notification
+startup-notification
 xcb-util-cursor
 xkbcommon
 yajl
