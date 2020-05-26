@@ -36,3 +36,12 @@ i3 Dependencies:
  ⁴ Depending on your distribution, this might be considered part of xcb-util.
 ```
 
+```
+# kiss b i3
+-> Resolving dependencies
+-> Building: autoconf automake libev startup-notification xcb-util xcb-util-image xcb-util-renderutil xcb-util-cursor xkbcommon yajl pcre gperf fontconfig cairo fribidi libXft pango i3
+-> Continue? Press Enter to continue or Ctrl+C to abort here
+```
+
+
+
