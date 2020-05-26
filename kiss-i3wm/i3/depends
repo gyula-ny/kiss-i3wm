@@ -1,0 +1,11 @@
+autoconf make
+automake make
+libev
+libstartup-notification
+xcb-util-cursor
+xkbcommon
+yajl
+pcre
+pango
+cairo
+
