@@ -7,8 +7,7 @@ xcb-util-keysyms
 xcb-util-wm
 xcb-util-xrm
 startup-notification
-xcb-util-cursor
-xkbcommon
+libxkbcommon
 yajl
 pcre
 pango
